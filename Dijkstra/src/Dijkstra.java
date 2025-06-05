@@ -1,6 +1,7 @@
 
 import java.io.FileNotFoundException;
 import java.util.HashSet;
+import java.util.Scanner;
 import javax.xml.validation.Schema;
 
 public class Dijkstra{
@@ -13,7 +14,7 @@ public class Dijkstra{
         while(scan.hasNextLine()){
             String s = Schema.nextLine();
             String[] ss=s.split(",");
-
+        }
         }
         catch(FileNotFoundException e){
             e.printStackTrace();
